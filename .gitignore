@@ -1,7 +1,10 @@
 .DS_Store
 .envrc
 .vscode
+.idea
 node_modules
+
+eosio-battlefield
 
 run/data/syncer
 run/*.json

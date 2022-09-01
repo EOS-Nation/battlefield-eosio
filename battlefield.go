@@ -39,6 +39,11 @@ func init() {
 }
 
 func main() {
+
+	// to generate an expected.json file from the
+	generateExpected("./run/data/oracle/eos-2.0/deep-mind.dmlog", "./run/data/oracle/eos-2.0/expected.json")
+	return
+
 	ensure(len(os.Args) == 2, "Single argument must be <chain> to compare")
 	chain := os.Args[1]
 
@@ -338,4 +343,15 @@ func noError(err error, message string, args ...interface{}) {
 func quit(message string, args ...interface{}) {
 	fmt.Printf(message+"\n", args...)
 	os.Exit(1)
+}
+
+func generateExpected(dmlogFile, expectedJsonFile string) {
+
+	actualBlocks := readActualBlocks(dmlogFile)
+	zlog.Info("read all blocks from dmlog file", zap.Int("block_count", len(actualBlocks)), zap.String("file", dmlogFile))
+
+	writeActualBlocks(expectedJsonFile, actualBlocks)
+
+	err := compressFile(expectedJsonFile)
+	noError(err, "Unable to compress file %q", expectedJsonFile)
 }
