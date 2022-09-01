@@ -25,14 +25,14 @@ contents:
 
 ## Custom contracts
   - name: battlefield-with-handler.wasm
-    url: ../../battlefield/battlefield-with-handler.wasm
+    url: ../../contracts/battlefield/battlefield-with-handler.wasm
   - name: battlefield-with-handler.abi
-    url: ../../battlefield/battlefield-with-handler.abi
+    url: ../../contracts/battlefield/battlefield-with-handler.abi
 
   - name: battlefield-without-handler.wasm
-    url: ../../battlefield/battlefield-without-handler.wasm
+    url: ../../contracts/battlefield/battlefield-without-handler.wasm
   - name: battlefield-without-handler.abi
-    url: ../../battlefield/battlefield-without-handler.abi
+    url: ../../contracts/battlefield/battlefield-without-handler.abi
 
 ################################# BOOT SEQUENCE ###################################
 boot_sequence:

@@ -32,7 +32,7 @@ function main() {
   fi
 
   # Trap exit signal and clean up
-  trap cleanup EXIT
+#  trap cleanup EXIT
 
   pushd $ROOT &> /dev/null
 
@@ -56,7 +56,7 @@ function main() {
 
   echo "Booting $1 node with smart contracts ..."
   pushd $target
-  eosc boot ../bootseq.yaml --reuse-genesis --api-url http://localhost:9898 1> /dev/null
+  eosc boot ../bootseq.yaml --reuse-genesis --api-url http://localhost:9898 #1> /dev/null
   mv output.log ${eosc_boot_log_file}
   popd 1> /dev/null
 
@@ -182,12 +182,12 @@ function main() {
   # and ask him to sign a transaction and send it to our local node, effectively
   # creating a transaction signed with a WebAuthN key
   #
-  echo ""
-  echo "About to push a WebAuthN signed transaction"
-  cd webauthn_signer
-  yarn -s run transfer
-  sleep 0.6
-  cd ..
+#  echo ""
+#  echo "About to push a WebAuthN signed transaction"
+#  cd webauthn_signer
+#  yarn -s run transfer
+#  sleep 0.6
+#  cd ..
 
   #
   ## WTMSIG blocks (EOSIO 2.0 protocol feature WTMSIG_BLOCK_SIGNATURES)
