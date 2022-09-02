@@ -41,7 +41,7 @@ func init() {
 func main() {
 
 	// to generate an expected.json file from the
-	// generateExpected("./run/data/oracle/eos-2.0/deep-mind.dmlog", "./run/data/oracle/eos-2.0/expected.json")
+	// generateExpected("./run/data/oracle/eos-new2/deep-mind.dmlog", "./run/data/oracle/eos-new2/expected.json")
 	// return
 
 	ensure(len(os.Args) == 2, "Single argument must be <chain> to compare")
