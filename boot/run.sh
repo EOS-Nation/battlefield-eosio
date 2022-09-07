@@ -129,6 +129,7 @@ function main() {
   echo ""
   echo "Available protocol features"
   echo $known_features | jq -r '. | "- \(.specification[].value) (Digest \(.feature_digest))"'
+  sleep 1.8
 
   echo ""
   echo "Activating protocol features"
