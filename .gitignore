@@ -7,9 +7,9 @@ node_modules
 eosio-battlefield
 
 run/data/syncer
-run/*.json
-run/*.log
-run/*.dmlog
+#run/*.json
+#run/*.log
+#run/*.dmlog
 
 reversible/
 state/
