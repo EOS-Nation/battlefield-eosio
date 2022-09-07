@@ -129,7 +129,7 @@ function main() {
   echo ""
   echo "Available protocol features"
   echo $known_features | jq -r '. | "- \(.specification[].value) (Digest \(.feature_digest))"'
-  sleep 1.8
+  sleep 3.0
 
   echo ""
   echo "Activating protocol features"
@@ -218,9 +218,9 @@ function main() {
   eosc system setcontract eosio contracts/eosio.system-1.7.0-rc1.wasm contracts/eosio.system-1.7.0-rc1.abi
   sleep 0.6
 
-  echo ""
-  echo "About to produce transactions to populate a table with 100K rows, this takes roughly 2m to complete"
-  create_100k_rows
+#  echo ""
+#  echo "About to produce transactions to populate a table with 100K rows, this takes roughly 2m to complete"
+#  create_100k_rows
 
   echo ""
   echo "Taking snapshot"

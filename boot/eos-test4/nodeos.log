@@ -1,0 +1,250 @@
+APPBASE: Warning: The following configuration items in the config.ini file are redundantly set to
+         their default value:
+             sync-fetch-span, max-irreversible-block-age
+         Explicit values will override future changes to application defaults. Consider commenting out or
+         removing these items.
+info  2022-09-07T15:25:08.449 nodeos-2. chain_plugin.cpp:638          plugin_initialize    ] initializing chain plugin
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:469          operator()           ] Support for builtin protocol feature 'PREACTIVATE_FEATURE' (with digest of '0ec7e080177b2c02b278d5088611686b49d739925a92d9bfcacd7fc6b74053bd') is enabled without activation restrictions
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:456          operator()           ] Support for builtin protocol feature 'ONLY_LINK_TO_EXISTING_PERMISSION' (with digest of '1a99a59d87e06e09ec5b028a9cbb7749b4a5ad8819004365d02dc4379a8b7241') is enabled with preactivation required
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:456          operator()           ] Support for builtin protocol feature 'FORWARD_SETCODE' (with digest of '2652f5f96006294109b3dd0bbde63693f55324af452b799ee137a81a905eed25') is enabled with preactivation required
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:456          operator()           ] Support for builtin protocol feature 'WTMSIG_BLOCK_SIGNATURES' (with digest of '299dcb6af692324b899b39f16d5a530a33062804e41f09dc97e9f156b4476707') is enabled with preactivation required
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:456          operator()           ] Support for builtin protocol feature 'REPLACE_DEFERRED' (with digest of 'ef43112c6543b88db2283a2e077278c315ae2c84719a8b25f25cc88565fbea99') is enabled with preactivation required
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:456          operator()           ] Support for builtin protocol feature 'NO_DUPLICATE_DEFERRED_ID' (with digest of '4a90c00d55454dc5b059055ca213579c6ea856967712a56017487886a4d4cc0f') is enabled with preactivation required
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:456          operator()           ] Support for builtin protocol feature 'RAM_RESTRICTIONS' (with digest of '4e7bf348da00a945489b2a681749eb56f5de00b900014e137ddae39f48f69d67') is enabled with preactivation required
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:456          operator()           ] Support for builtin protocol feature 'WEBAUTHN_KEY' (with digest of '4fca8bd82bbd181e714e283f83e1b45d95ca5af40fb89ad3977b653c448f78c2') is enabled with preactivation required
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:456          operator()           ] Support for builtin protocol feature 'DISALLOW_EMPTY_PRODUCER_SCHEDULE' (with digest of '68dcaa34c0517d19666e6b33add67351d8c5f69e999ca1e37931bc410a297428') is enabled with preactivation required
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:456          operator()           ] Support for builtin protocol feature 'ONLY_BILL_FIRST_AUTHORIZER' (with digest of '8ba52fe7a3956c5cd3a656a3174b931d3bb2abb45578befc59f283ecd816a405') is enabled with preactivation required
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:456          operator()           ] Support for builtin protocol feature 'RESTRICT_ACTION_TO_SELF' (with digest of 'ad9e3d8f650687709fd68f4b90b41f7d825a365b02c23a636cef88ac2ac00c43') is enabled with preactivation required
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:456          operator()           ] Support for builtin protocol feature 'FIX_LINKAUTH_RESTRICTION' (with digest of 'e0fb64b1085cc5538970158d05a009c24e276fb94e1a0bf6a528b48fbc4ff526') is enabled with preactivation required
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:456          operator()           ] Support for builtin protocol feature 'GET_SENDER' (with digest of 'f0af56d2c5a48d60a4a5b5c903edfb7db3a736a94ed589d0b797df33ff9d3e1d') is enabled with preactivation required
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:987          plugin_initialize    ] Using genesis state provided in '/home/fred/battlefield-eosio-run2/boot/eos-test4/genesis.json'
+info  2022-09-07T15:25:08.450 nodeos-2. chain_plugin.cpp:1018         plugin_initialize    ] Starting fresh blockchain state using provided genesis state.
+info  2022-09-07T15:25:08.864 nodeos-2. platform_timer_accurac:62     compute_and_print_ti ] Checktime timer accuracy: min:0us max:20us mean:2us stddev:2us
+info  2022-09-07T15:25:08.865 nodeos-2. http_plugin.cpp:742           plugin_initialize    ] configured http to listen on 0.0.0.0:9898
+warn  2022-09-07T15:25:08.865 nodeos-2. net_api_plugin.cpp:91         plugin_initialize    ] 
+**********SECURITY WARNING**********
+*                                  *
+* --         Net API            -- *
+* - EXPOSED to the LOCAL NETWORK - *
+* - USE ONLY ON SECURE NETWORKS! - *
+*                                  *
+************************************
+
+info  2022-09-07T15:25:08.865 nodeos-2. producer_plugin.cpp:937       plugin_initialize    ] Subjective CPU billing disabled
+warn  2022-09-07T15:25:08.865 nodeos-2. producer_api_plugin.cp:141    plugin_initialize    ] 
+**********SECURITY WARNING**********
+*                                  *
+* --        Producer API        -- *
+* - EXPOSED to the LOCAL NETWORK - *
+* - USE ONLY ON SECURE NETWORKS! - *
+*                                  *
+************************************
+
+info  2022-09-07T15:25:08.865 nodeos-2. main.cpp:138                  main                 ] nodeos version v2.0.12-dm.12.0 v2.0.12-dm.12.0-61551fd816d5d20835c4ccb7ed49b5d0c2553b54-dirty
+info  2022-09-07T15:25:08.865 nodeos-2. main.cpp:139                  main                 ] nodeos using configuration file /home/fred/battlefield-eosio-run2/boot/eos-test4/config.ini
+info  2022-09-07T15:25:08.865 nodeos-2. main.cpp:140                  main                 ] nodeos data directory is /home/fred/battlefield-eosio-run2/boot/eos-test4
+warn  2022-09-07T15:25:08.865 nodeos-2. controller.cpp:583            startup              ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-09-07T15:25:08.865 nodeos-2. controller.cpp:452            initialize_blockchai ] Initializing new blockchain with genesis state
+info  2022-09-07T15:25:08.889 nodeos-2. chain_plugin.cpp:1234         plugin_startup       ] starting chain in read/write mode
+info  2022-09-07T15:25:08.889 nodeos-2. chain_plugin.cpp:1239         plugin_startup       ] Blockchain started; head block is #1, genesis timestamp is 2018-07-23T17:14:45.000
+info  2022-09-07T15:25:08.889 nodeos-2. net_plugin.cpp:3481           plugin_startup       ] my node_id is ec793c18a9aa87b92ba526152f2155cd95314e65c5a4d2d4f0dfd4e8c3df0672
+info  2022-09-07T15:25:08.889 nodeos-2. net_plugin.cpp:3537           plugin_startup       ] starting listener, max clients is 25
+info  2022-09-07T15:25:08.892 nodeos-2. net_api_plugin.cpp:59         plugin_startup       ] starting net_api_plugin
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/net/connect
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/net/connections
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/net/disconnect
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/net/status
+info  2022-09-07T15:25:08.892 nodeos-2. chain_api_plugin.cpp:105      plugin_startup       ] starting chain_api_plugin
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_info
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/abi_bin_to_json
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/abi_json_to_bin
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_abi
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_account
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_activated_protocol_features
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_block
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_block_header_state
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_code
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_code_hash
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_currency_balance
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_currency_stats
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_producer_schedule
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_producers
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_raw_abi
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_raw_code_and_abi
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_required_keys
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_scheduled_transactions
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_table_by_scope
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_table_rows
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/get_transaction_id
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/push_block
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/push_transaction
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/push_transactions
+info  2022-09-07T15:25:08.892 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/chain/send_transaction
+info  2022-09-07T15:25:08.892 nodeos-2. producer_plugin.cpp:1017      plugin_startup       ] producer plugin:  plugin_startup() begin
+info  2022-09-07T15:25:08.892 nodeos-2. producer_plugin.cpp:1042      plugin_startup       ] Launching block production for 3 producers at 2022-09-07T15:25:08.892.
+info  2022-09-07T15:25:08.893 nodeos-2. producer_plugin.cpp:1053      plugin_startup       ] producer plugin:  plugin_startup() end
+info  2022-09-07T15:25:08.893 nodeos-2. producer_api_plugin.cp:89     plugin_startup       ] starting producer_api_plugin
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/add_greylist_accounts
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/create_snapshot
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/get_account_ram_corrections
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/get_greylist
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/get_integrity_hash
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/get_runtime_options
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/get_scheduled_protocol_feature_activations
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/get_supported_protocol_features
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/get_whitelist_blacklist
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/pause
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/paused
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/remove_greylist_accounts
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/resume
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/schedule_protocol_feature_activations
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/set_whitelist_blacklist
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/producer/update_runtime_options
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:821           operator()           ] start listening for http requests
+info  2022-09-07T15:25:08.893 nodeos-2. http_plugin.cpp:927           add_handler          ] add api url: /v1/node/get_supported_apis
+info  2022-09-07T15:25:08.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 1c3364f3934393ba... #2 @ 2022-09-07T15:25:09.000 signed by eosio [trxs: 0, lib: 1, confirmed: 0]
+info  2022-09-07T15:25:09.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 7760f3170c6cff07... #3 @ 2022-09-07T15:25:09.500 signed by eosio [trxs: 0, lib: 2, confirmed: 0]
+info  2022-09-07T15:25:09.915 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block f1bfe5253cebe076... #4 @ 2022-09-07T15:25:10.000 signed by eosio [trxs: 33, lib: 3, confirmed: 0]
+info  2022-09-07T15:25:10.401 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 6b00c9dfaf730c0e... #5 @ 2022-09-07T15:25:10.500 signed by eosio [trxs: 0, lib: 4, confirmed: 0]
+info  2022-09-07T15:25:10.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block f72c692198421065... #6 @ 2022-09-07T15:25:11.000 signed by eosio [trxs: 0, lib: 5, confirmed: 0]
+info  2022-09-07T15:25:11.300 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block b6f9d6a978bb9d20... #7 @ 2022-09-07T15:25:11.500 signed by eosio [trxs: 0, lib: 6, confirmed: 0]
+info  2022-09-07T15:25:11.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 6b610a813d8740e4... #8 @ 2022-09-07T15:25:12.000 signed by eosio [trxs: 1, lib: 7, confirmed: 0]
+info  2022-09-07T15:25:12.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block a4d61ede55bfcef4... #9 @ 2022-09-07T15:25:12.500 signed by eosio [trxs: 5, lib: 8, confirmed: 0]
+info  2022-09-07T15:25:12.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 8528f671679998d9... #10 @ 2022-09-07T15:25:13.000 signed by eosio [trxs: 4, lib: 9, confirmed: 0]
+info  2022-09-07T15:25:13.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block dbd50c5258b8e048... #11 @ 2022-09-07T15:25:13.500 signed by eosio [trxs: 0, lib: 10, confirmed: 0]
+info  2022-09-07T15:25:13.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block e8496580aa4abcb3... #12 @ 2022-09-07T15:25:14.000 signed by eosio [trxs: 5, lib: 11, confirmed: 0]
+info  2022-09-07T15:25:14.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 7c1b158b785325d7... #13 @ 2022-09-07T15:25:14.500 signed by eosio [trxs: 1, lib: 12, confirmed: 0]
+info  2022-09-07T15:25:14.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 77d56f8129cd24bd... #14 @ 2022-09-07T15:25:15.000 signed by eosio [trxs: 1, lib: 13, confirmed: 0]
+info  2022-09-07T15:25:15.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block b332ec9abb9e9a56... #15 @ 2022-09-07T15:25:15.500 signed by eosio [trxs: 1, lib: 14, confirmed: 0]
+info  2022-09-07T15:25:15.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block f7f02f23c42221a1... #16 @ 2022-09-07T15:25:16.000 signed by eosio [trxs: 3, lib: 15, confirmed: 0]
+info  2022-09-07T15:25:16.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block fc2fe8b2a3795484... #17 @ 2022-09-07T15:25:16.500 signed by eosio [trxs: 1, lib: 16, confirmed: 0]
+info  2022-09-07T15:25:16.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block afdaf0048aefca73... #18 @ 2022-09-07T15:25:17.000 signed by eosio [trxs: 0, lib: 17, confirmed: 0]
+info  2022-09-07T15:25:17.300 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 9a0a592c2aa76472... #19 @ 2022-09-07T15:25:17.500 signed by eosio [trxs: 1, lib: 18, confirmed: 0]
+info  2022-09-07T15:25:17.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block bf0c3e379f6bfdad... #20 @ 2022-09-07T15:25:18.000 signed by eosio [trxs: 1, lib: 19, confirmed: 0]
+info  2022-09-07T15:25:18.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 9e7bc62f40da0187... #21 @ 2022-09-07T15:25:18.500 signed by eosio [trxs: 0, lib: 20, confirmed: 0]
+info  2022-09-07T15:25:18.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block a1d0722352c7a9fd... #22 @ 2022-09-07T15:25:19.000 signed by eosio [trxs: 2, lib: 21, confirmed: 0]
+error 2022-09-07T15:25:19.286 nodeos-2. http_plugin.cpp:964           handle_exception     ] FC Exception encountered while processing chain.push_transaction
+info  2022-09-07T15:25:19.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 7398fad63f7f916a... #23 @ 2022-09-07T15:25:19.500 signed by eosio [trxs: 0, lib: 22, confirmed: 0]
+info  2022-09-07T15:25:19.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block f5c08093e3190d4e... #24 @ 2022-09-07T15:25:20.000 signed by eosio [trxs: 0, lib: 23, confirmed: 0]
+info  2022-09-07T15:25:20.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block ca0dbfa2bcbe23c9... #25 @ 2022-09-07T15:25:20.500 signed by eosio [trxs: 1, lib: 24, confirmed: 0]
+info  2022-09-07T15:25:20.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 9996aa68d0d48ba5... #26 @ 2022-09-07T15:25:21.000 signed by eosio [trxs: 0, lib: 25, confirmed: 0]
+info  2022-09-07T15:25:21.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 9a01aeacc00bec9a... #27 @ 2022-09-07T15:25:21.500 signed by eosio [trxs: 2, lib: 26, confirmed: 0]
+info  2022-09-07T15:25:21.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block d92f0d22c1010707... #28 @ 2022-09-07T15:25:22.000 signed by eosio [trxs: 0, lib: 27, confirmed: 0]
+info  2022-09-07T15:25:22.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block d66f53259cfb59cc... #29 @ 2022-09-07T15:25:22.500 signed by eosio [trxs: 2, lib: 28, confirmed: 0]
+info  2022-09-07T15:25:22.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 7baf160f49c00ce5... #30 @ 2022-09-07T15:25:23.000 signed by eosio [trxs: 0, lib: 29, confirmed: 0]
+info  2022-09-07T15:25:23.300 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 4bd5eedbde0103b7... #31 @ 2022-09-07T15:25:23.500 signed by eosio [trxs: 1, lib: 30, confirmed: 0]
+info  2022-09-07T15:25:23.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block bbfb3f850633d4cf... #32 @ 2022-09-07T15:25:24.000 signed by eosio [trxs: 1, lib: 31, confirmed: 0]
+info  2022-09-07T15:25:24.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block a664951145e97b6f... #33 @ 2022-09-07T15:25:24.500 signed by eosio [trxs: 0, lib: 32, confirmed: 0]
+info  2022-09-07T15:25:24.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 7b31e41d354fb854... #34 @ 2022-09-07T15:25:25.000 signed by eosio [trxs: 2, lib: 33, confirmed: 0]
+info  2022-09-07T15:25:25.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block fe209431a41db030... #35 @ 2022-09-07T15:25:25.500 signed by eosio [trxs: 0, lib: 34, confirmed: 0]
+info  2022-09-07T15:25:25.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block fdce730b469447ab... #36 @ 2022-09-07T15:25:26.000 signed by eosio [trxs: 1, lib: 35, confirmed: 0]
+info  2022-09-07T15:25:26.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 12b6bfdeb1bcd26a... #37 @ 2022-09-07T15:25:26.500 signed by eosio [trxs: 2, lib: 36, confirmed: 0]
+info  2022-09-07T15:25:26.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 696f0e1f637e73fb... #38 @ 2022-09-07T15:25:27.000 signed by eosio [trxs: 0, lib: 37, confirmed: 0]
+info  2022-09-07T15:25:27.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 32f5d1e63b5cdec1... #39 @ 2022-09-07T15:25:27.500 signed by eosio [trxs: 3, lib: 38, confirmed: 0]
+info  2022-09-07T15:25:27.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 683c8162c4c8d787... #40 @ 2022-09-07T15:25:28.000 signed by eosio [trxs: 0, lib: 39, confirmed: 0]
+info  2022-09-07T15:25:28.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 62a540cb17552ef9... #41 @ 2022-09-07T15:25:28.500 signed by eosio [trxs: 1, lib: 40, confirmed: 0]
+info  2022-09-07T15:25:28.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 6802dcd724d77c4a... #42 @ 2022-09-07T15:25:29.000 signed by eosio [trxs: 1, lib: 41, confirmed: 0]
+info  2022-09-07T15:25:29.300 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 15ee2c91897a8e9e... #43 @ 2022-09-07T15:25:29.500 signed by eosio [trxs: 1, lib: 42, confirmed: 0]
+info  2022-09-07T15:25:29.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 7e430bbdbe3ac99f... #44 @ 2022-09-07T15:25:30.000 signed by eosio [trxs: 2, lib: 43, confirmed: 0]
+info  2022-09-07T15:25:30.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 0616d0afe1fa56d2... #45 @ 2022-09-07T15:25:30.500 signed by eosio [trxs: 1, lib: 44, confirmed: 0]
+info  2022-09-07T15:25:30.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block f80d60a215120fb8... #46 @ 2022-09-07T15:25:31.000 signed by eosio [trxs: 0, lib: 45, confirmed: 0]
+info  2022-09-07T15:25:31.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 289d28f2955818a1... #47 @ 2022-09-07T15:25:31.500 signed by eosio [trxs: 0, lib: 46, confirmed: 0]
+info  2022-09-07T15:25:31.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 413be3eb3c2c4991... #48 @ 2022-09-07T15:25:32.000 signed by eosio [trxs: 1, lib: 47, confirmed: 0]
+info  2022-09-07T15:25:32.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 80c97848913b23ad... #49 @ 2022-09-07T15:25:32.500 signed by eosio [trxs: 1, lib: 48, confirmed: 0]
+info  2022-09-07T15:25:32.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 71697c2b71f1324f... #50 @ 2022-09-07T15:25:33.000 signed by eosio [trxs: 1, lib: 49, confirmed: 0]
+info  2022-09-07T15:25:33.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 2287f7aba5fb7256... #51 @ 2022-09-07T15:25:33.500 signed by eosio [trxs: 0, lib: 50, confirmed: 0]
+info  2022-09-07T15:25:33.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 8bd446b5338e8051... #52 @ 2022-09-07T15:25:34.000 signed by eosio [trxs: 1, lib: 51, confirmed: 0]
+info  2022-09-07T15:25:34.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 0a25a55f914c5970... #53 @ 2022-09-07T15:25:34.500 signed by eosio [trxs: 1, lib: 52, confirmed: 0]
+info  2022-09-07T15:25:34.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 061acc31296a0f9d... #54 @ 2022-09-07T15:25:35.000 signed by eosio [trxs: 0, lib: 53, confirmed: 0]
+info  2022-09-07T15:25:35.300 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 3c7b0c0daa24834c... #55 @ 2022-09-07T15:25:35.500 signed by eosio [trxs: 1, lib: 54, confirmed: 0]
+info  2022-09-07T15:25:35.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 829c3ccb7a4f343b... #56 @ 2022-09-07T15:25:36.000 signed by eosio [trxs: 1, lib: 55, confirmed: 0]
+info  2022-09-07T15:25:36.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block ddd3777b93a63db7... #57 @ 2022-09-07T15:25:36.500 signed by eosio [trxs: 1, lib: 56, confirmed: 0]
+info  2022-09-07T15:25:36.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 202bcd367717d8d4... #58 @ 2022-09-07T15:25:37.000 signed by eosio [trxs: 1, lib: 57, confirmed: 0]
+info  2022-09-07T15:25:37.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 5997b766f5b58d31... #59 @ 2022-09-07T15:25:37.500 signed by eosio [trxs: 1, lib: 58, confirmed: 0]
+info  2022-09-07T15:25:37.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block d308ac126d894e96... #60 @ 2022-09-07T15:25:38.000 signed by eosio [trxs: 1, lib: 59, confirmed: 0]
+info  2022-09-07T15:25:38.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 91657f0ba41f8d49... #61 @ 2022-09-07T15:25:38.500 signed by eosio [trxs: 0, lib: 60, confirmed: 0]
+info  2022-09-07T15:25:38.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 99d39d3809cbb99f... #62 @ 2022-09-07T15:25:39.000 signed by eosio [trxs: 1, lib: 61, confirmed: 0]
+info  2022-09-07T15:25:39.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 4c512be49ab0a177... #63 @ 2022-09-07T15:25:39.500 signed by eosio [trxs: 1, lib: 62, confirmed: 0]
+info  2022-09-07T15:25:39.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block f4fdcdba66ba7238... #64 @ 2022-09-07T15:25:40.000 signed by eosio [trxs: 0, lib: 63, confirmed: 0]
+info  2022-09-07T15:25:40.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 30aa35fe131cdf87... #65 @ 2022-09-07T15:25:40.500 signed by eosio [trxs: 1, lib: 64, confirmed: 0]
+info  2022-09-07T15:25:40.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 5ba679d410390241... #66 @ 2022-09-07T15:25:41.000 signed by eosio [trxs: 1, lib: 65, confirmed: 0]
+info  2022-09-07T15:25:41.300 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block c20ccf6be6a247ca... #67 @ 2022-09-07T15:25:41.500 signed by eosio [trxs: 0, lib: 66, confirmed: 0]
+info  2022-09-07T15:25:41.500 nodeos-2. controller.cpp:3067           set_proposed_produce ] proposed producer schedule with version 1
+info  2022-09-07T15:25:41.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block f4bd0e4e88908be9... #68 @ 2022-09-07T15:25:42.000 signed by eosio [trxs: 1, lib: 67, confirmed: 0]
+info  2022-09-07T15:25:42.000 nodeos-2. controller.cpp:1683           start_block          ] promoting proposed schedule (set in block 68) to pending; current block: 69 lib: 68 schedule: {"version":1,"producers":[{"producer_name":"eosio2","authority":[0,{"threshold":1,"keys":[{"key":"EOS5MHPYyhjBjnQZejzZHqHewPWhGTfQWSVTWYEhDmJu4SXkzgweP","weight":1}]}]}]} 
+info  2022-09-07T15:25:42.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 01c0ee1b7e3e29c8... #69 @ 2022-09-07T15:25:42.500 signed by eosio [trxs: 0, lib: 68, confirmed: 0]
+info  2022-09-07T15:25:42.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 7556bf82b9aca1b4... #70 @ 2022-09-07T15:25:43.000 signed by eosio [trxs: 0, lib: 69, confirmed: 0]
+info  2022-09-07T15:25:43.403 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 68c5a4f8556a758d... #71 @ 2022-09-07T15:25:43.500 signed by eosio2 [trxs: 0, lib: 70, confirmed: 0]
+warn  2022-09-07T15:25:43.528 nodeos-2. wabt.hpp:632                  translate_one        ] misaligned reference
+info  2022-09-07T15:25:43.905 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block ef20ecbb52b5b82b... #72 @ 2022-09-07T15:25:44.000 signed by eosio2 [trxs: 1, lib: 71, confirmed: 0]
+info  2022-09-07T15:25:44.401 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 53bdb85af4187ea5... #73 @ 2022-09-07T15:25:44.500 signed by eosio2 [trxs: 0, lib: 72, confirmed: 0]
+info  2022-09-07T15:25:44.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block d3ec53353054b16b... #74 @ 2022-09-07T15:25:45.000 signed by eosio2 [trxs: 0, lib: 73, confirmed: 0]
+info  2022-09-07T15:25:45.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block e7c181b18e2625e6... #75 @ 2022-09-07T15:25:45.500 signed by eosio2 [trxs: 0, lib: 74, confirmed: 0]
+info  2022-09-07T15:25:45.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 98d36927aabea4a3... #76 @ 2022-09-07T15:25:46.000 signed by eosio2 [trxs: 0, lib: 75, confirmed: 0]
+info  2022-09-07T15:25:46.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 165bc956683fb151... #77 @ 2022-09-07T15:25:46.500 signed by eosio2 [trxs: 0, lib: 76, confirmed: 0]
+info  2022-09-07T15:25:46.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block b353128031bdec0d... #78 @ 2022-09-07T15:25:47.000 signed by eosio2 [trxs: 0, lib: 77, confirmed: 0]
+info  2022-09-07T15:25:47.313 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 4ba953c4f14cb626... #79 @ 2022-09-07T15:25:47.500 signed by eosio2 [trxs: 0, lib: 78, confirmed: 0]
+info  2022-09-07T15:25:47.500 nodeos-2. producer_plugin.cpp:1636      start_block          ] signaling activation of the following protocol features in block 80: ["0ec7e080177b2c02b278d5088611686b49d739925a92d9bfcacd7fc6b74053bd"]
+info  2022-09-07T15:25:47.908 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block e993e3535d5d98e3... #80 @ 2022-09-07T15:25:48.000 signed by eosio2 [trxs: 1, lib: 79, confirmed: 0]
+info  2022-09-07T15:25:48.401 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block f7af858bd549a88e... #81 @ 2022-09-07T15:25:48.500 signed by eosio2 [trxs: 0, lib: 80, confirmed: 0]
+info  2022-09-07T15:25:48.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block f032428d379cf061... #82 @ 2022-09-07T15:25:49.000 signed by eosio2 [trxs: 0, lib: 81, confirmed: 0]
+info  2022-09-07T15:25:49.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block fa11de42dfa503da... #83 @ 2022-09-07T15:25:49.500 signed by eosio2 [trxs: 0, lib: 82, confirmed: 0]
+info  2022-09-07T15:25:49.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 7f35bd9c678fe995... #84 @ 2022-09-07T15:25:50.000 signed by eosio2 [trxs: 4, lib: 83, confirmed: 0]
+info  2022-09-07T15:25:50.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 474dfb2ccf7c15dc... #85 @ 2022-09-07T15:25:50.500 signed by eosio2 [trxs: 4, lib: 84, confirmed: 0]
+info  2022-09-07T15:25:50.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 6e538abe6acd8bae... #86 @ 2022-09-07T15:25:51.000 signed by eosio2 [trxs: 4, lib: 85, confirmed: 0]
+info  2022-09-07T15:25:51.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 761f8a56f600ee3a... #87 @ 2022-09-07T15:25:51.500 signed by eosio2 [trxs: 0, lib: 86, confirmed: 0]
+info  2022-09-07T15:25:51.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block e0e65164768635d3... #88 @ 2022-09-07T15:25:52.000 signed by eosio2 [trxs: 0, lib: 87, confirmed: 0]
+info  2022-09-07T15:25:52.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 18eb63a2be40554d... #89 @ 2022-09-07T15:25:52.500 signed by eosio2 [trxs: 0, lib: 88, confirmed: 0]
+info  2022-09-07T15:25:52.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block d619bd9559e4dd28... #90 @ 2022-09-07T15:25:53.000 signed by eosio2 [trxs: 0, lib: 89, confirmed: 0]
+info  2022-09-07T15:25:53.300 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block d5ba703161ba55dc... #91 @ 2022-09-07T15:25:53.500 signed by eosio2 [trxs: 0, lib: 90, confirmed: 0]
+info  2022-09-07T15:25:53.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block c098ab34168ee1fe... #92 @ 2022-09-07T15:25:54.000 signed by eosio2 [trxs: 0, lib: 91, confirmed: 0]
+info  2022-09-07T15:25:54.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 4a9c4bbf50e486c4... #93 @ 2022-09-07T15:25:54.500 signed by eosio2 [trxs: 0, lib: 92, confirmed: 0]
+info  2022-09-07T15:25:54.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 354404a0eff56413... #94 @ 2022-09-07T15:25:55.000 signed by eosio2 [trxs: 2, lib: 93, confirmed: 0]
+info  2022-09-07T15:25:55.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 0b9e80742f1437b1... #95 @ 2022-09-07T15:25:55.500 signed by eosio2 [trxs: 1, lib: 94, confirmed: 0]
+info  2022-09-07T15:25:55.901 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 5a2f7276031973a0... #96 @ 2022-09-07T15:25:56.000 signed by eosio2 [trxs: 0, lib: 95, confirmed: 0]
+info  2022-09-07T15:25:56.000 nodeos-2. controller.cpp:3067           set_proposed_produce ] proposed producer schedule with version 2
+info  2022-09-07T15:25:56.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block e5520086f0833f58... #97 @ 2022-09-07T15:25:56.500 signed by eosio2 [trxs: 1, lib: 96, confirmed: 0]
+info  2022-09-07T15:25:56.500 nodeos-2. controller.cpp:1683           start_block          ] promoting proposed schedule (set in block 97) to pending; current block: 98 lib: 97 schedule: {"version":2,"producers":[{"producer_name":"eosio3","authority":[0,{"threshold":1,"keys":[{"key":"EOS5MHPYyhjBjnQZejzZHqHewPWhGTfQWSVTWYEhDmJu4SXkzgweP","weight":1}]}]}]} 
+info  2022-09-07T15:25:56.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block f69e36178341fb3d... #98 @ 2022-09-07T15:25:57.000 signed by eosio2 [trxs: 0, lib: 97, confirmed: 0]
+info  2022-09-07T15:25:57.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 1ab468a55d437b0d... #99 @ 2022-09-07T15:25:57.500 signed by eosio2 [trxs: 0, lib: 98, confirmed: 0]
+info  2022-09-07T15:25:57.913 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block bbdbe8a9b94e0766... #100 @ 2022-09-07T15:25:58.000 signed by eosio3 [trxs: 0, lib: 99, confirmed: 0]
+info  2022-09-07T15:25:58.408 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 971a95d0ad5040b6... #101 @ 2022-09-07T15:25:58.500 signed by eosio3 [trxs: 1, lib: 100, confirmed: 0]
+info  2022-09-07T15:25:58.901 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block dd59a4e87c6da66c... #102 @ 2022-09-07T15:25:59.000 signed by eosio3 [trxs: 0, lib: 101, confirmed: 0]
+info  2022-09-07T15:25:59.300 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block ede531c339983765... #103 @ 2022-09-07T15:25:59.500 signed by eosio3 [trxs: 0, lib: 102, confirmed: 0]
+info  2022-09-07T15:25:59.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block fd41f23deceeed38... #104 @ 2022-09-07T15:26:00.000 signed by eosio3 [trxs: 0, lib: 103, confirmed: 0]
+info  2022-09-07T15:26:00.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 010ed9a5701fe31b... #105 @ 2022-09-07T15:26:00.500 signed by eosio3 [trxs: 0, lib: 104, confirmed: 0]
+info  2022-09-07T15:26:00.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 081a6d68e3477e02... #106 @ 2022-09-07T15:26:01.000 signed by eosio3 [trxs: 0, lib: 105, confirmed: 0]
+info  2022-09-07T15:26:01.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block cc5642a6da1c57cf... #107 @ 2022-09-07T15:26:01.500 signed by eosio3 [trxs: 0, lib: 106, confirmed: 0]
+info  2022-09-07T15:26:01.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 80d9dc303be2e681... #108 @ 2022-09-07T15:26:02.000 signed by eosio3 [trxs: 0, lib: 107, confirmed: 0]
+info  2022-09-07T15:26:02.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 5e80ca64b6ca2622... #109 @ 2022-09-07T15:26:02.500 signed by eosio3 [trxs: 0, lib: 108, confirmed: 0]
+info  2022-09-07T15:26:02.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 966fdf97b03bbf58... #110 @ 2022-09-07T15:26:03.000 signed by eosio3 [trxs: 0, lib: 109, confirmed: 0]
+info  2022-09-07T15:26:03.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 62725dcb54e3cb29... #111 @ 2022-09-07T15:26:03.500 signed by eosio3 [trxs: 0, lib: 110, confirmed: 0]
+info  2022-09-07T15:26:03.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 40d054aab3476e2b... #112 @ 2022-09-07T15:26:04.000 signed by eosio3 [trxs: 0, lib: 111, confirmed: 0]
+info  2022-09-07T15:26:04.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block d136e16b4205e431... #113 @ 2022-09-07T15:26:04.500 signed by eosio3 [trxs: 0, lib: 112, confirmed: 0]
+info  2022-09-07T15:26:04.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 4e8f2b188d6d07ac... #114 @ 2022-09-07T15:26:05.000 signed by eosio3 [trxs: 0, lib: 113, confirmed: 0]
+info  2022-09-07T15:26:05.300 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 457a0cd88aca1d23... #115 @ 2022-09-07T15:26:05.500 signed by eosio3 [trxs: 0, lib: 114, confirmed: 0]
+info  2022-09-07T15:26:05.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block bca6f6e01a22f831... #116 @ 2022-09-07T15:26:06.000 signed by eosio3 [trxs: 0, lib: 115, confirmed: 0]
+info  2022-09-07T15:26:06.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 37c7d7c1385fdd14... #117 @ 2022-09-07T15:26:06.500 signed by eosio3 [trxs: 0, lib: 116, confirmed: 0]
+info  2022-09-07T15:26:06.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 6e54ac3da91994fa... #118 @ 2022-09-07T15:26:07.000 signed by eosio3 [trxs: 0, lib: 117, confirmed: 0]
+info  2022-09-07T15:26:07.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 76a5b7e11710eb47... #119 @ 2022-09-07T15:26:07.500 signed by eosio3 [trxs: 0, lib: 118, confirmed: 0]
+info  2022-09-07T15:26:07.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 42b07798790cb116... #120 @ 2022-09-07T15:26:08.000 signed by eosio3 [trxs: 0, lib: 119, confirmed: 0]
+info  2022-09-07T15:26:08.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block e7f676a01d44a6b6... #121 @ 2022-09-07T15:26:08.500 signed by eosio3 [trxs: 0, lib: 120, confirmed: 0]
+info  2022-09-07T15:26:08.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 0d18f5da6812a167... #122 @ 2022-09-07T15:26:09.000 signed by eosio3 [trxs: 0, lib: 121, confirmed: 0]
+info  2022-09-07T15:26:09.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 3bc7292d465e133f... #123 @ 2022-09-07T15:26:09.500 signed by eosio3 [trxs: 0, lib: 122, confirmed: 0]
+info  2022-09-07T15:26:09.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 1e6d11a6a093f94a... #124 @ 2022-09-07T15:26:10.000 signed by eosio3 [trxs: 0, lib: 123, confirmed: 0]
+info  2022-09-07T15:26:10.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 42679bcd2742238a... #125 @ 2022-09-07T15:26:10.500 signed by eosio3 [trxs: 0, lib: 124, confirmed: 0]
+info  2022-09-07T15:26:10.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 5901b05298c8e745... #126 @ 2022-09-07T15:26:11.000 signed by eosio3 [trxs: 0, lib: 125, confirmed: 0]
+info  2022-09-07T15:26:11.300 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 60f8979058764187... #127 @ 2022-09-07T15:26:11.500 signed by eosio3 [trxs: 0, lib: 126, confirmed: 0]
+info  2022-09-07T15:26:11.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block d0f2c20949e93b50... #128 @ 2022-09-07T15:26:12.000 signed by eosio3 [trxs: 0, lib: 127, confirmed: 0]
+info  2022-09-07T15:26:12.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 2e32bb4e5e1a9a31... #129 @ 2022-09-07T15:26:12.500 signed by eosio3 [trxs: 0, lib: 128, confirmed: 0]
+info  2022-09-07T15:26:12.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 475d369dbfed1199... #130 @ 2022-09-07T15:26:13.000 signed by eosio3 [trxs: 0, lib: 129, confirmed: 0]
+info  2022-09-07T15:26:13.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 8878bd5555fbb9ad... #131 @ 2022-09-07T15:26:13.500 signed by eosio3 [trxs: 0, lib: 130, confirmed: 0]
+info  2022-09-07T15:26:13.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block cbd006221f54e3b0... #132 @ 2022-09-07T15:26:14.000 signed by eosio3 [trxs: 0, lib: 131, confirmed: 0]
+info  2022-09-07T15:26:14.400 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block f74aa6334abd1435... #133 @ 2022-09-07T15:26:14.500 signed by eosio3 [trxs: 0, lib: 132, confirmed: 0]
+info  2022-09-07T15:26:14.900 nodeos-2. producer_plugin.cpp:2293      produce_block        ] Produced block 6eafd4a0bba647a6... #134 @ 2022-09-07T15:26:15.000 signed by eosio3 [trxs: 0, lib: 133, confirmed: 0]
+info  2022-09-07T15:26:14.903 nodeos-2. net_plugin.cpp:3583           plugin_shutdown      ] shutdown..
+info  2022-09-07T15:26:14.903 nodeos-2. net_plugin.cpp:3600           plugin_shutdown      ] close 0 connections
+info  2022-09-07T15:26:14.903 nodeos-2. net_plugin.cpp:3620           plugin_shutdown      ] exit shutdown
+info  2022-09-07T15:26:14.903 nodeos-2. chain_plugin.cpp:1263         plugin_shutdown      ] chain shutdown
+info  2022-09-07T15:26:14.913 nodeos-2. chain_plugin.cpp:1273         plugin_shutdown      ] chain done
+info  2022-09-07T15:26:14.913 nodeos-2. main.cpp:181                  main                 ] nodeos successfully exiting
