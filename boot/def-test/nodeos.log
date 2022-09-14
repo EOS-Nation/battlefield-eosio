@@ -1,0 +1,139 @@
+APPBASE: Warning: The following configuration items in the config.ini file are redundantly set to
+         their default value:
+             sync-fetch-span, max-irreversible-block-age
+         Explicit values will override future changes to application defaults. Consider commenting out or
+         removing these items.
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:659          plugin_initialize    ] initializing chain plugin
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:479          operator()           ] Support for builtin protocol feature 'PREACTIVATE_FEATURE' (with digest of '0ec7e080177b2c02b278d5088611686b49d739925a92d9bfcacd7fc6b74053bd') is enabled without activation restrictions
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'ONLY_LINK_TO_EXISTING_PERMISSION' (with digest of '1a99a59d87e06e09ec5b028a9cbb7749b4a5ad8819004365d02dc4379a8b7241') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'FORWARD_SETCODE' (with digest of '2652f5f96006294109b3dd0bbde63693f55324af452b799ee137a81a905eed25') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'WTMSIG_BLOCK_SIGNATURES' (with digest of '299dcb6af692324b899b39f16d5a530a33062804e41f09dc97e9f156b4476707') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'GET_BLOCK_NUM' (with digest of '35c2186cc36f7bb4aeaf4487b36e57039ccf45a9136aa856a5d569ecca55ef2b') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'REPLACE_DEFERRED' (with digest of 'ef43112c6543b88db2283a2e077278c315ae2c84719a8b25f25cc88565fbea99') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'NO_DUPLICATE_DEFERRED_ID' (with digest of '4a90c00d55454dc5b059055ca213579c6ea856967712a56017487886a4d4cc0f') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'RAM_RESTRICTIONS' (with digest of '4e7bf348da00a945489b2a681749eb56f5de00b900014e137ddae39f48f69d67') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'WEBAUTHN_KEY' (with digest of '4fca8bd82bbd181e714e283f83e1b45d95ca5af40fb89ad3977b653c448f78c2') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'BLOCKCHAIN_PARAMETERS' (with digest of '5443fcf88330c586bc0e5f3dee10e7f63c76c00249c87fe4fbf7f38c082006b4') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'DISALLOW_EMPTY_PRODUCER_SCHEDULE' (with digest of '68dcaa34c0517d19666e6b33add67351d8c5f69e999ca1e37931bc410a297428') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'CRYPTO_PRIMITIVES' (with digest of '6bcb40a24e49c26d0a60513b6aeb8551d264e4717f306b81a37a5afb3b47cedc') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'ONLY_BILL_FIRST_AUTHORIZER' (with digest of '8ba52fe7a3956c5cd3a656a3174b931d3bb2abb45578befc59f283ecd816a405') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'RESTRICT_ACTION_TO_SELF' (with digest of 'ad9e3d8f650687709fd68f4b90b41f7d825a365b02c23a636cef88ac2ac00c43') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'GET_CODE_HASH' (with digest of 'bcd2a26394b36614fd4894241d3c451ab0f6fd110958c3423073621a70826e99') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'ACTION_RETURN_VALUE' (with digest of 'c3a6138c5061cf291310887c0b5c71fcaffeab90d5deb50d3b9e687cead45071') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'CONFIGURABLE_WASM_LIMITS2' (with digest of 'd528b9f6e9693f45ed277af93474fd473ce7d831dae2180cca35d907bd10cb40') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'FIX_LINKAUTH_RESTRICTION' (with digest of 'e0fb64b1085cc5538970158d05a009c24e276fb94e1a0bf6a528b48fbc4ff526') is enabled with preactivation required
+info  2022-09-14T20:11:17.581 nodeos-le chain_plugin.cpp:466          operator()           ] Support for builtin protocol feature 'GET_SENDER' (with digest of 'f0af56d2c5a48d60a4a5b5c903edfb7db3a736a94ed589d0b797df33ff9d3e1d') is enabled with preactivation required
+info  2022-09-14T20:11:17.582 nodeos-le chain_plugin.cpp:985          plugin_initialize    ] Using genesis state provided in '/home/yaro/battlefield-eosio/boot/def-test/genesis.json'
+info  2022-09-14T20:11:17.582 nodeos-le chain_plugin.cpp:1016         plugin_initialize    ] Starting fresh blockchain state using provided genesis state.
+info  2022-09-14T20:11:18.001 nodeos-le platform_timer_accurac:62     compute_and_print_ti ] Checktime timer accuracy: min:0us max:10us mean:2us stddev:2us
+info  2022-09-14T20:11:18.001 nodeos-le http_plugin.cpp:741           plugin_initialize    ] configured http to listen on 0.0.0.0:9898
+warn  2022-09-14T20:11:18.001 nodeos-le net_api_plugin.cpp:85         plugin_initialize    ] 
+**********SECURITY WARNING**********
+*                                  *
+* --         Net API            -- *
+* - EXPOSED to the LOCAL NETWORK - *
+* - USE ONLY ON SECURE NETWORKS! - *
+*                                  *
+************************************
+
+info  2022-09-14T20:11:18.002 nodeos-le producer_plugin.cpp:1099      plugin_initialize    ] Subjective CPU billing disabled
+warn  2022-09-14T20:11:18.002 nodeos-le producer_api_plugin.cp:139    plugin_initialize    ] 
+**********SECURITY WARNING**********
+*                                  *
+* --        Producer API        -- *
+* - EXPOSED to the LOCAL NETWORK - *
+* - USE ONLY ON SECURE NETWORKS! - *
+*                                  *
+************************************
+
+info  2022-09-14T20:11:18.002 nodeos-le resource_monitor_plugi:67     plugin_initialize    ] Monitoring interval set to 2
+info  2022-09-14T20:11:18.002 nodeos-le resource_monitor_plugi:73     plugin_initialize    ] Space usage threshold set to 90
+info  2022-09-14T20:11:18.002 nodeos-le resource_monitor_plugi:82     plugin_initialize    ] Shutdown flag when threshold exceeded set to true
+info  2022-09-14T20:11:18.002 nodeos-le resource_monitor_plugi:89     plugin_initialize    ] Warning interval set to 30
+info  2022-09-14T20:11:18.002 nodeos-le main.cpp:138                  main                 ] nodeos version v3.1.0 v3.1.0-3c9661e67e5f66234871f967f28d1662bf1905b6-dirty
+info  2022-09-14T20:11:18.002 nodeos-le main.cpp:139                  main                 ] nodeos using configuration file /home/yaro/battlefield-eosio/boot/def-test/config.ini
+info  2022-09-14T20:11:18.002 nodeos-le main.cpp:140                  main                 ] nodeos data directory is /home/yaro/battlefield-eosio/boot/def-test
+warn  2022-09-14T20:11:18.002 nodeos-le controller.cpp:599            startup              ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-09-14T20:11:18.002 nodeos-le controller.cpp:451            initialize_blockchai ] Initializing new blockchain with genesis state
+info  2022-09-14T20:11:18.007 nodeos-le controller.cpp:525            replay               ] no irreversible blocks need to be replayed
+info  2022-09-14T20:11:18.007 nodeos-le controller.cpp:538            replay               ] 0 reversible blocks replayed
+info  2022-09-14T20:11:18.007 nodeos-le controller.cpp:548            replay               ] replayed 0 blocks in 0 seconds, 0.00000000000582077 ms/block
+info  2022-09-14T20:11:18.007 nodeos-le chain_plugin.cpp:1268         plugin_startup       ] starting chain in read/write mode
+info  2022-09-14T20:11:18.007 nodeos-le chain_plugin.cpp:1273         plugin_startup       ] Blockchain started; head block is #1, genesis timestamp is 2018-07-23T17:14:45.000
+info  2022-09-14T20:11:18.007 nodeos-le net_plugin.cpp:3673           plugin_startup       ] my node_id is 71462bddae0f765710d0f0e5e509487ca0386a5c4362863f81f0309afeb4de93
+info  2022-09-14T20:11:18.007 nodeos-le net_api_plugin.cpp:53         plugin_startup       ] starting net_api_plugin
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/net/connect
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/net/connections
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/net/disconnect
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/net/status
+info  2022-09-14T20:11:18.007 nodeos-le chain_api_plugin.cpp:96       plugin_startup       ] starting chain_api_plugin
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_info
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/abi_bin_to_json
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/abi_json_to_bin
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/compute_transaction
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_abi
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_account
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_activated_protocol_features
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_block
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_block_header_state
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_block_info
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_code
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_code_hash
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_currency_balance
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_currency_stats
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_producer_schedule
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_producers
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_raw_abi
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_raw_code_and_abi
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_required_keys
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_scheduled_transactions
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_table_by_scope
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_table_rows
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/get_transaction_id
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/push_block
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/push_transaction
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/push_transactions
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/send_transaction
+info  2022-09-14T20:11:18.007 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/chain/send_transaction2
+info  2022-09-14T20:11:18.007 nodeos-le producer_plugin.cpp:1183      plugin_startup       ] producer plugin:  plugin_startup() begin
+info  2022-09-14T20:11:18.007 nodeos-le producer_plugin.cpp:1208      plugin_startup       ] Launching block production for 3 producers at 2022-09-14T20:11:18.007.
+info  2022-09-14T20:11:18.008 nodeos-le producer_plugin.cpp:1219      plugin_startup       ] producer plugin:  plugin_startup() end
+info  2022-09-14T20:11:18.008 nodeos-le producer_api_plugin.cp:87     plugin_startup       ] starting producer_api_plugin
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/add_greylist_accounts
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/create_snapshot
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/get_account_ram_corrections
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/get_greylist
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/get_integrity_hash
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/get_runtime_options
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/get_scheduled_protocol_feature_activations
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/get_supported_protocol_features
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/get_whitelist_blacklist
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/pause
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/paused
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/remove_greylist_accounts
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/resume
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/schedule_protocol_feature_activations
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/set_whitelist_blacklist
+info  2022-09-14T20:11:18.008 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/producer/update_runtime_options
+info  2022-09-14T20:11:18.008 nodeos-le resource_monitor_plugi:94     plugin_startup       ] Creating and starting monitor thread
+info  2022-09-14T20:11:18.008 nodeos-le file_space_handler.hpp:112    add_file_system      ] /home/yaro/battlefield-eosio/boot/def-test/blocks's file system monitored. shutdown_available: 49057701060, capacity: 490577010688, threshold: 90
+info  2022-09-14T20:11:18.008 nodeos-le net_plugin.cpp:3749           operator()           ] starting listener, max clients is 25
+info  2022-09-14T20:11:18.012 nodeos-le http_plugin.cpp:808           operator()           ] start listening for http requests
+info  2022-09-14T20:11:18.012 nodeos-le http_plugin.cpp:911           add_handler          ] add api url: /v1/node/get_supported_apis
+info  2022-09-14T20:11:18.400 nodeos-le producer_plugin.cpp:2437      produce_block        ] Produced block 5236471723b78bdc... #2 @ 2022-09-14T20:11:18.500 signed by eosio [trxs: 0, lib: 1, confirmed: 0]
+info  2022-09-14T20:11:18.911 nodeos-le producer_plugin.cpp:2437      produce_block        ] Produced block 8d57fa9b516a0014... #3 @ 2022-09-14T20:11:19.000 signed by eosio [trxs: 33, lib: 2, confirmed: 0]
+info  2022-09-14T20:11:19.400 nodeos-le producer_plugin.cpp:2437      produce_block        ] Produced block a34d2a2261b4ee1d... #4 @ 2022-09-14T20:11:19.500 signed by eosio [trxs: 0, lib: 3, confirmed: 0]
+info  2022-09-14T20:11:19.900 nodeos-le producer_plugin.cpp:2437      produce_block        ] Produced block b0336dc4323f8fd6... #5 @ 2022-09-14T20:11:20.000 signed by eosio [trxs: 0, lib: 4, confirmed: 0]
+info  2022-09-14T20:11:20.400 nodeos-le producer_plugin.cpp:2437      produce_block        ] Produced block 77cc3123cb670b22... #6 @ 2022-09-14T20:11:20.500 signed by eosio [trxs: 0, lib: 5, confirmed: 0]
+info  2022-09-14T20:11:20.900 nodeos-le producer_plugin.cpp:2437      produce_block        ] Produced block 786beafe686efa03... #7 @ 2022-09-14T20:11:21.000 signed by eosio [trxs: 0, lib: 6, confirmed: 0]
+info  2022-09-14T20:11:21.400 nodeos-le producer_plugin.cpp:2437      produce_block        ] Produced block 89c8543fe29a7686... #8 @ 2022-09-14T20:11:21.500 signed by eosio [trxs: 2, lib: 7, confirmed: 0]
+info  2022-09-14T20:11:21.900 nodeos-le producer_plugin.cpp:2437      produce_block        ] Produced block ed19b6ef65734a2d... #9 @ 2022-09-14T20:11:22.000 signed by eosio [trxs: 1, lib: 8, confirmed: 0]
+info  2022-09-14T20:11:22.400 nodeos-le producer_plugin.cpp:2437      produce_block        ] Produced block 4072de7396adabf2... #10 @ 2022-09-14T20:11:22.500 signed by eosio [trxs: 0, lib: 9, confirmed: 0]
+info  2022-09-14T20:11:22.900 nodeos-le producer_plugin.cpp:2437      produce_block        ] Produced block 450cbabd546e7c01... #11 @ 2022-09-14T20:11:23.000 signed by eosio [trxs: 1, lib: 10, confirmed: 0]
+info  2022-09-14T20:11:23.300 nodeos-le producer_plugin.cpp:2437      produce_block        ] Produced block fa3d6a6f8d804c21... #12 @ 2022-09-14T20:11:23.500 signed by eosio [trxs: 0, lib: 11, confirmed: 0]
+info  2022-09-14T20:11:23.783 nodeos-le resource_monitor_plugi:122    plugin_shutdown      ] shutdown...
+info  2022-09-14T20:11:23.783 nodeos-le resource_monitor_plugi:129    plugin_shutdown      ] exit shutdown
+info  2022-09-14T20:11:23.783 nodeos-le net_plugin.cpp:3774           plugin_shutdown      ] shutdown..
+info  2022-09-14T20:11:23.784 nodeos-le net_plugin.cpp:3791           plugin_shutdown      ] close 0 connections
+info  2022-09-14T20:11:23.784 nodeos-le net_plugin.cpp:3811           plugin_shutdown      ] exit shutdown
+info  2022-09-14T20:11:23.796 nodeos-le main.cpp:181                  main                 ] nodeos successfully exiting
